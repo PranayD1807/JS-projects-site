@@ -159,6 +159,10 @@ body{
     .links{
         bottom: 0%;
     }
+    .links .btn{
+        font-size: 1rem;
+        padding: 10px;
+    }
     .project .info{
         font-size: 15px;
     }
