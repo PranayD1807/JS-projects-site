@@ -1,0 +1,21 @@
+#project-1{
+    background: url("./images/clock.png");
+}
+#project-2{
+    background: url("./images/stopwatch.png");
+}
+#project-3{  
+    background: url("./images/slideshow.png");
+}
+#project-4{
+    background: url("./images/calci.png");
+}
+#project-1, #project-2, #project-3, #project-4{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.project:hover #project-1, .project:hover #project-2, .project:hover #project-3, .project:hover #project-4{
+    filter: blur(2px);
+}
