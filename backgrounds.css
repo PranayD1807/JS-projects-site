@@ -10,12 +10,15 @@
 #project-4{
     background: url("./images/calci.png");
 }
-#project-1, #project-2, #project-3, #project-4{
+#project-5{
+    background: url("./images/to-fo-list.png");
+}
+#project-1, #project-2, #project-3, #project-4, #project-5{
     height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center center;
 }
-.project:hover #project-1, .project:hover #project-2, .project:hover #project-3, .project:hover #project-4{
+.project:hover #project-1, .project:hover #project-2, .project:hover #project-3, .project:hover #project-4, .project:hover #project-5{
     filter: blur(2px);
 }
